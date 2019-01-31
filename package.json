@@ -1,6 +1,9 @@
 {
   "name": "budgetplaner",
   "version": "1.0.0",
+  "engines": {
+    "node": "10.3.0"
+  },
   "description": "A budget planer app, linked to your bank account",
   "main": "server/server.js",
   "scripts": {
