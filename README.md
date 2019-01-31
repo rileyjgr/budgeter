@@ -9,11 +9,13 @@ This app will use machine learning to assist with your budget planing and help d
 - MongoDb
 - Node.Js
 - React.Js / React Native
+- Google Cloud Platform
 
 # Apis Currently in Use
 
 - Plaid
 - TipsToGo
+- Google Calendar Api
 
 # Future Development Ideas
 
