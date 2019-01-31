@@ -1,0 +1,44 @@
+{
+  "name": "budgetplaner",
+  "version": "1.0.0",
+  "description": "A budget planer app, linked to your bank account",
+  "main": "server/server.js",
+  "scripts": {
+    "dev": "webpack -d --watch",
+    "start": "concurrently \"nodemon src/server/server.js\" \"webpack -d --watch\"",
+    "build": "webpack -p",
+    "react-dev": "webpack -d --watch",
+    "server-dev": "nodemon src/server/server.js",
+    "postinstall": "webpack",
+    "heroku-postbuild": "webpack -p"
+  },
+  "keywords": [
+    "banking",
+    "fintech"
+  ],
+  "author": "Riley Griffin",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.3.0",
+    "@babel/preset-react": "^7.0.0",
+    "body-parser": "^1.18.3",
+    "concurrently": "^4.1.0",
+    "css-loader": "^2.1.0",
+    "dotenv": "^6.2.0",
+    "ejs": "^2.6.1",
+    "envvar": "^2.0.0",
+    "express": "^4.16.4",
+    "file-loader": "^3.0.1",
+    "moment": "^2.24.0",
+    "mongoose": "^5.4.8",
+    "nodemon": "^1.18.9",
+    "plaid": "^2.10.0",
+    "react": "^16.7.0",
+    "style-loader": "^0.23.1",
+    "util": "^0.11.1",
+    "webpack": "^4.29.0",
+    "webpack-cli": "^3.2.1"
+  }
+}
