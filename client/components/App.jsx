@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import Login from './Authentication/Login';
 import HomePage from './Pages/HomePage';
 import Signup from './Authentication/Signup';
+
 import { Button, FormGroup, FieldGroup, PageHeader, FormControl, Col,  Image, Jumbotron, Nav, NavItem, Row } from 'react-bootstrap';
 class App extends Component {
 
