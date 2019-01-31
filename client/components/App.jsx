@@ -3,16 +3,8 @@ import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import Login from './Authentication/Login';
 import HomePage from './Pages/HomePage';
 import Signup from './Authentication/Signup';
-
+import { Button, FormGroup, FieldGroup, PageHeader, FormControl, Col,  Image, Jumbotron, Nav, NavItem, Row } from 'react-bootstrap';
 class App extends Component {
-    state = {
-        loading: true
-      };
-
-    componentDidMount() {
-        // the setTimeout just simulates an async action, after which the component will render the content
-        setTimeout(() => this.setState({ loading: false }), 2500);
-    }
 
     render() {
         return (

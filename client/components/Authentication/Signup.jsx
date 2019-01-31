@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Button, FormGroup, FormControl, ControlLabel } from "react-bootstrap";
+import { Button, FormGroup, FieldGroup, PageHeader, FormControl, Col, Image, Jumbotron, Nav, NavItem, Row } from 'react-bootstrap';
 import './Signup.css';
 
 class Signup extends Component {
@@ -57,7 +57,6 @@ class Signup extends Component {
                                 controlId="email"
                                 validationState={this.getValidationState()}
                                 >
-                                <ControlLabel>Team Email</ControlLabel>
                                 <FormControl
                                     text="Email Address" 
                                     ref="email"
