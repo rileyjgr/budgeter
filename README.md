@@ -27,6 +27,7 @@ This app will use machine learning to assist with your budget planing and help d
 - Integration with Google Calendar to create a budget calendar for each user to show dates they have bills do
 - Integration with Dialogflow to add a support chat bot to help new users navigate the app
 - TipsToGo deals integration to help users save money
+- Export budget plan to google sheets for user
 - Andriod and IOs app (this is last stage of development, Web App will be the primary focus)
 
 # Price
