@@ -16,6 +16,7 @@ This app will use machine learning to assist with your budget planing and help d
 - Plaid
 - TipsToGo
 - Google Calendar Api
+- Google Sheets APi
 
 # Future Development Ideas
 
