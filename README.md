@@ -25,7 +25,8 @@ This app will use machine learning to assist with your budget planing and help d
 - Integration with Google Calendar to create a budget calendar for each user to show dates they have bills do
 - Integration with Dialogflow to add a support chat bot to help new users navigate the app
 - TipsToGo deals integration to help users save money
+- Andriod and IOs app (this is last stage of development, Web App will be the primary focus)
 
 # Price
 
-This app will be free for the first 100 users that sign up, but will cost $5.00 for each user afterwords. 
+This app will be free for the first 100 users that sign up, but will cost $5.00/permonth for each user afterwords. 
