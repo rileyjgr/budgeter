@@ -29,5 +29,8 @@ module.exports ={
         app.get('/users/signup', (req,res)=>{
             res.send('hello from users signup')
         });
+    },
+    plaid: async(app)=>{
+        app.post('/get_access_token', appcontrollers.plaid);
     }
 };
