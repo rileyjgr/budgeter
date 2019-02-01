@@ -24,13 +24,11 @@ export default class Login extends Component {
         const {email, password} = this.state;
     
         return (
-            
             <div className = "container">
-            <AuthNavBar/>
                 <form className="form-signin" onSubmit={this.onSubmit}>
                     
                     <h2 className="form-signin-heading">
-                        Sign In
+                        Input your information below to create an account.
                     </h2>
 
                     <div className="form-group">
@@ -63,7 +61,7 @@ export default class Login extends Component {
                         className="btn btn-lg btn-primary btn-block"
                         type="submit"
                     >
-                        Sign In
+                        Create Account
                     </button>
                 </form>                
             </div>
