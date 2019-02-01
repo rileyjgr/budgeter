@@ -10,7 +10,7 @@ export default class HomePage extends Component {
     
     <div>
     <HomePageNav/>
-    
+
     </div>
     );
   }

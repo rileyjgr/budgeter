@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
 // import { Route, RouteHandler, Link } from 'react-router';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-import { Button, FormGroup, FieldGroup, PageHeader, FormControl, Col, Image, Jumbotron, Nav, NavItem, Row } from 'react-bootstrap';
+import { Button, FormGroup, FormControl, ControlLabel, Jumbotron, Navbar, Header, Toggle, Brand, Collapse, Nav, NavItem } from "react-bootstrap";
 import './AuthNavBar.css';
 
-class AuthNavBar extends Component {
+export default class AuthNavBar extends Component {
   render() {
     return (
       <header>
         <Navbar fixedTop>
             <Navbar.Header pullLeft>
                 <Navbar.Brand>
-                    <Link to="/">Home</Link>
+                    <Link to="/"></Link>
                 </Navbar.Brand>
             </Navbar.Header>
                 <Nav>
@@ -34,4 +34,4 @@ class AuthNavBar extends Component {
     )
   }
 }
-export default NavBar;
+
