@@ -4,6 +4,7 @@ import Login from './Authentication/Login';
 import HomePage from './Pages/HomePage';
 import Signup from './Authentication/Signup';
 import Dashboard from './UserAccount/Dashboard';
+import Settings from './UserAccount/Settings';
 import { Button, FormGroup, FieldGroup, PageHeader, FormControl, Col,  Image, Jumbotron, Nav, NavItem, Row } from 'react-bootstrap';
 class App extends Component {
 
@@ -15,6 +16,7 @@ class App extends Component {
                     <Route name="login" exact path="/login" component={Login} />
                     <Route name="signup" exact path="/signup" component={Signup} />
                     <Route Name="dashboard" exact path="/dashboard" component={Dashboard} />
+                    <Route Name="settings" exact path="/settings" component={Settings} />
                 </div>
             </Router>
         );
